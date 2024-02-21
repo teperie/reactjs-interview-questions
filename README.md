@@ -1,6 +1,6 @@
 # React 인터뷰 문답
 
-> [@SudheerJonna](https://twitter.com/SudheerJonna)
+> 팔로우하고 최신 정보를 받아보세요. [@SudheerJonna](https://twitter.com/SudheerJonna)
 
 ---
 
@@ -36,27 +36,27 @@
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     | **React 핵심**                                                                                                                                                                                                                   |
 | 1   | [React란?](#what-is-react)                                                                                                                                                                                                 |
-| 2   | [What is the history behind React evolution?](#What-is-the-history-behind-React-evolution)                                                                                                                                       |
-| 3   | [What are the major features of React?](#what-are-the-major-features-of-react)                                                                                                                                                   |
-| 4   | [What is JSX?](#what-is-jsx)                                                                                                                                                                                                     |
-| 5   | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component)                                                                                                                   |
-| 6   | [How to create components in React?](#how-to-create-components-in-react)                                                                                                                                                         |
-| 7   | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component)                                                                                                             |
-| 8   | [What are Pure Components?](#what-are-pure-components)                                                                                                                                                                           |
-| 9   | [What is state in React?](#what-is-state-in-react)                                                                                                                                                                               |
-| 10   | [What are props in React?](#what-are-props-in-react)                                                                                                                                                                             |
-| 11  | [What is the difference between state and props?](#what-is-the-difference-between-state-and-props)                                                                                                                               |
-| 12  | [Why should we not update the state directly?](#why-should-we-not-update-the-state-directly)                                                                                                                                     |
-| 13  | [What is the purpose of callback function as an argument of setState()?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)                                                                                   |
-| 14  | [What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling)                                                                                                   |
-| 15  | [How to bind methods or event handlers in JSX callbacks?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks)                                                                                                               |
-| 16  | [How to pass a parameter to an event handler or callback?](#how-to-pass-a-parameter-to-an-event-handler-or-callback)                                                                                                             |
-| 17  | [What are synthetic events in React?](#what-are-synthetic-events-in-react)                                                                                                                                                       |
-| 18  | [What are inline conditional expressions?](#what-are-inline-conditional-expressions)                                                                                                                                             |
-| 19  | [What is "key" prop and what is the benefit of using it in arrays of elements?](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements)                                                                     |
-| 20  | [What is the use of refs?](#what-is-the-use-of-refs)                                                                                                                                                                             |
-| 21  | [How to create refs?](#how-to-create-refs)                                                                                                                                                                                       |
-| 22  | [What are forward refs?](#what-are-forward-refs)                                                                                                                                                                                 |
+| 2   | [React의 배경에 대해서?](#What-is-the-history-behind-React-evolution)                                                                                                                                       |
+| 3   | [React의 주기능은?](#what-are-the-major-features-of-react)                                                                                                                                                   |
+| 4   | [JSX란?](#what-is-jsx)                                                                                                                                                                                                     |
+| 5   | [Element와 Component의 차이점은?](#what-is-the-difference-between-element-and-component)                                                                                                                   |
+| 6   | [React에서 컴포넌트를 만드는 법은?](#how-to-create-components-in-react)                                                                                                                                                         |
+| 7   | [언제 함수 컴포넌트 대신 클래스 컴포넌트를 사용하나요?](#when-to-use-a-class-component-over-a-function-component)                                                                                                             |
+| 8   | [퓨어 컴포넌트란?](#what-are-pure-components)                                                                                                                                                                           |
+| 9   | [React의 State(상태)란?](#what-is-state-in-react)                                                                                                                                                                               |
+| 10   | [React에서 Props(속성)란?](#what-are-props-in-react)                                                                                                                                                                             |
+| 11  | [State와 Props의 차이점은?](#what-is-the-difference-between-state-and-props)                                                                                                                               |
+| 12  | [왜 State 값을 직접 바꾸면 안 되나요?](#why-should-we-not-update-the-state-directly)                                                                                                                                     |
+| 13  | [setState()의 인수인 콜백 함수는 어떤 역할인가요?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)                                                                                   |
+| 14  | [HTML과 React의 이벤트 핸들링은 어떤 차이점이 있나요?](#what-is-the-difference-between-html-and-react-event-handling)                                                                                                   |
+| 15  | [JSX 콜백에서 어떻게 메소드나 이벤트 핸들러를 바인딩하나요?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks)                                                                                                               |
+| 16  | [어떻게 이벤트 핸들러나 콜백에 파라미터를 전달하나요?](#how-to-pass-a-parameter-to-an-event-handler-or-callback)                                                                                                             |
+| 17  | [React에서 Synthetic Event란?](#what-are-synthetic-events-in-react)                                                                                                                                                       |
+| 18  | [인라인 조건문이란?](#what-are-inline-conditional-expressions)                                                                                                                                             |
+| 19  | ["key" 속성은 무엇이고, 이를 엘리먼트 배열에서 사용했을 때의 이점은 무엇인가요?](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements)                                                                     |
+| 20  | [Ref의 용도는?](#what-is-the-use-of-refs)                                                                                                                                                                             |
+| 21  | [Ref는 어떻게 만드나요?](#how-to-create-refs)                                                                                                                                                                                       |
+| 22  | [Forward Ref란?](#what-are-forward-refs)                                                                                                                                                                                 |
 | 23  | [Which is preferred option with in callback refs and findDOMNode()?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode)                                                                                           |
 | 24  | [Why are String Refs legacy?](#why-are-string-refs-legacy)                                                                                                                                                                       |
 | 25  | [What is Virtual DOM?](#what-is-virtual-dom)                                                                                                                                                                                     |
