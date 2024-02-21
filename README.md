@@ -1,6 +1,6 @@
-# React Interview Questions & Answers
+# React 인터뷰 문답
 
-> Click :star:if you like the project. Pull Request are highly appreciated. Follow me [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates.
+> [@SudheerJonna](https://twitter.com/SudheerJonna)
 
 ---
 
@@ -20,22 +20,22 @@
     <img src=https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:70/https://www.filepicker.io/api/file/AKYtjj5SSGyJuyZrkAB2 alt="ZTM Logo" width="100" height="50">
   </a>
     <ol>
-      <li>I recommend this <a href="https://links.zerotomastery.io/react_sudheer">React course</a> if you’re serious about learning React and want to go beyond the basics</li>
-      <li>Want to ace your coding interview and get hired at your dream company? <a href="http://links.zerotomastery.io/mci_sudheer">Take this coding interview bootcamp</a></li>
+      <li>React를 더욱 심도깊게 배우고 싶다면 여기 <a href="https://links.zerotomastery.io/react_sudheer">React 코스</a>를 추천합니다.</li>
+      <li><a href="http://links.zerotomastery.io/mci_sudheer">코딩 인터뷰 부트캠프</a></li>
     </ol>
   </p>
 </div>
 
 ---
 
-**Note:** This repository is specific to ReactJS. Please check [Javascript Interview questions](https://github.com/sudheerj/javascript-interview-questions) for core javascript questions.
+**Note:** 이 리포지토리는 ReactJS를 특정해서 다루고 있습니다. 자바스크립트는 [Javascript Interview questions](https://github.com/sudheerj/javascript-interview-questions) 여기를 참고하세요.
 
-### Table of Contents
+### 목차
 
-| No. | Questions                                                                                                                                                                                                                        |
+| No. | 질문                                                                                                                                                                                                                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     | **Core React**                                                                                                                                                                                                                   |
-| 1   | [What is React?](#what-is-react)                                                                                                                                                                                                 |
+|     | **React 핵심**                                                                                                                                                                                                                   |
+| 1   | [React란?](#what-is-react)                                                                                                                                                                                                 |
 | 2   | [What is the history behind React evolution?](#What-is-the-history-behind-React-evolution)                                                                                                                                       |
 | 3   | [What are the major features of React?](#what-are-the-major-features-of-react)                                                                                                                                                   |
 | 4   | [What is JSX?](#what-is-jsx)                                                                                                                                                                                                     |
